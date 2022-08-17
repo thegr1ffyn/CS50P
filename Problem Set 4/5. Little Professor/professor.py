@@ -1,3 +1,5 @@
+# This solution gives a total score of 5/12. I am working on it to make it better.
+
 import random
 
 def main():
