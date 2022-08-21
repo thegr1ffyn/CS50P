@@ -1,5 +1,3 @@
-# This solution gives a total score of 5/12. I am working on it to make it better.
-
 import random
 
 def main():
@@ -9,7 +7,7 @@ def main():
 
 def get_level():
     while True:
-        try: 
+        try:
             i = int(input('Select Level: '))
             if i not in range(1,4):
                 raise ValueError
@@ -72,5 +70,5 @@ def generate_integer(level):
                     attempt += 1
     return score
 
-if _name_ == "__main__":
+if __name__ == "__main__":
     main()
